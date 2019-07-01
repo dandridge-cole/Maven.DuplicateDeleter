@@ -65,5 +65,4 @@ public abstract class DuplicateDeleter<T> implements DuplicateDeleterInterface<T
         for(int i=0; i<this.countUniques;i++) if(this.uniques[i].equals(toFind))return i;
         return -1;
     }
-
 }
